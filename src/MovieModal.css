@@ -1,0 +1,48 @@
+/* Gaya dasar untuk modal */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    overflow: auto;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #777;
+  }
+  .container {
+    display: flex; /* Menggunakan flex container */
+    align-items: center; /* Memusatkan elemen vertikal */
+  }
+  
+  .image {
+    flex: 1; /* Memiliki flex-grow: 1; sehingga mengisi semua ruang tersedia */
+    margin-right: 2px; /* Margin kanan antara gambar dan teks */
+  }
+  
+  .text {
+    flex: 2; /* Memiliki flex-grow: 2; sehingga membesar dua kali lipat daripada gambar */
+  }
+  
