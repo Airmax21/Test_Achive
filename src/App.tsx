@@ -5,7 +5,7 @@ import './App.css';
 const App: React.FC = () => {
   return (
     <div>
-      <h1 className='page-title'>Search Movie</h1>
+      <h1 className='page-title'>Pencarian Film</h1>
       <SearchMovie />
     </div>
   );

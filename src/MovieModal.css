@@ -1,4 +1,3 @@
-/* Gaya dasar untuk modal */
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -13,7 +12,7 @@
   }
   
   .modal {
-    background-color: white;
+    background-color: rgb(145, 141, 141);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -33,16 +32,16 @@
     color: #777;
   }
   .container {
-    display: flex; /* Menggunakan flex container */
-    align-items: center; /* Memusatkan elemen vertikal */
+    display: flex; 
+    align-items: center;
   }
   
   .image {
-    flex: 1; /* Memiliki flex-grow: 1; sehingga mengisi semua ruang tersedia */
-    margin-right: 2px; /* Margin kanan antara gambar dan teks */
+    flex: 1; 
+    margin-right: 2px;
   }
   
   .text {
-    flex: 2; /* Memiliki flex-grow: 2; sehingga membesar dua kali lipat daripada gambar */
+    flex: 2; 
   }
   
